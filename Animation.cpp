@@ -56,7 +56,7 @@ void downward(string s,int drop_height,int ind)
 		cout<<"                    ";
 		cout<<s[ind];
 
-		//Changing the time form sec to microsecond, because usleep() fnc takes time in microsecond.
+		//Changing the time from sec to microsecond, because usleep() fnc takes time in microsecond.
 		usleep(t*pow(10,6));		//	Increase the value 67000, to make the downward animation faster.
 
 		//For the next 1 m fall to calculate then v, the initial velocity would be the previous v, hence changing the value of u.
